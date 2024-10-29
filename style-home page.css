@@ -1,0 +1,253 @@
+/*  @media(max-width: 836px) {
+    * {   /* applicable to all sections
+    display: flex;
+    flex-direction: column;
+    }   */
+
+header {
+    position: sticky;
+}
+
+nav {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 0 203px;
+    padding-top: 20px;
+    }
+
+    nav img{
+        width: 268px;
+        height: 33px;
+        }
+
+        nav ul{
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        list-style: none;
+        }
+
+        nav a {
+        text-decoration: none;
+        color: #777777;
+        }
+
+        a:hover {
+        color: #00b39b;
+     
+        }
+
+#active{    /* active: for setting the item always on */
+    color: #00b39b;
+        }
+
+
+.dropdown-list {
+    cursor: pointer;
+    position: relative;
+}
+
+.sec-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#slogan {
+   color: #00b39b;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+.colored-text { color: #00b39b; }
+.grey-text { color:#777777; }
+
+.p0 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    margin: 40px 40px;
+    color: #777777;
+}
+
+    #p0-left {
+        display: inline-block;
+        justify-content: center;
+        width: 500px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    #p0-right{
+        display: inline-block;
+        justify-content: center;
+        width: 500px;
+        height: 60px;
+        margin: 10px;
+        }
+        
+.group-1 {
+    width: 100%;    /* the class's width is the whole page */
+    height: 400px;
+    display: flex;  /*  activating 'flexbox'    */
+    justify-content: space-around;  /* giving a space between each block */
+    padding: 30px 270px;    /* creating spaces in order to center the blocks.   30px: top + bottom | 270px: left + right */
+    color: white;   /* font color */
+}
+
+    .group-1 div{   /* to target all the divs in the class */
+        width: 312px;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 30px;
+        }
+
+        #patients { background-color: #00b39b; }
+        #patients svg { color: white;}
+        #doctors { background-color: #3d83df; }
+        #doctors svg { color: white;}
+        #clinics { background-color: #1b2734; }
+        #clinics svg { color: white;}
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++   */
+.below-3cards {
+    width: 100%;
+    height: 400px;
+    padding: 30px 270px;
+    display: flex;
+    justify-content: space-between;
+}
+        
+.brands_logos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.brands_logos+h2 {
+    padding-top: 20px;
+}
+
+.below-3cards li {
+    width: 150px;
+    height: 50px;
+    
+}
+
+.below-3cards img, svg {
+    width: 144px;
+    height: 44px;
+    color:#777777;
+}
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++   */
+.stats {
+    background-color: #d5f5f5;
+    width: 100%;
+    height: 600px;
+    padding: 30px 270px;
+    display: flex;
+    overflow: hidden;
+}
+
+    .stats-left {
+        width: 477px;
+        padding: 20px;
+    }
+        .col-2-stats__header h1 { color: #00b39b; }
+        .col-2-stats__header p { color: #777777; }
+
+    #big-logo {
+        padding-top: 30px;
+        width: 430px;
+        height: 430px;
+        
+    }
+
+    .col-2 {
+        display: flex;
+        }
+
+        .col-2_left {
+            margin-top: 20px;
+        }
+
+        .col-2_right {
+            margin-top: -10px;
+        }
+
+   .stats-cards {
+        background-color: #ffffff;
+        width: 230px;
+        height: 250px;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 15px;
+        text-align: center;
+
+   }
+        .stats-cards h3 { color: #00b39b;  }
+        .stats-cards p { color: #777777; font-size: small; }
+
+/*  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++   */
+#group-2 {
+    margin: 100px 270px;
+    display: block;
+   
+}
+    #group-2 h1 {justify-content: center;}
+
+
+
+
+
+
+/*  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  */
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 0 250px;
+}
+
+ #gov {
+    height: 260px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#gov img {
+    height: 200px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px !important;
+}
+
+.last-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+    .last-one button {
+        background-color: blue;
+        color: white;
+        width: 250px;
+        height: 40px;
+        margin: 30px 0; 
+        border-radius: 10px;
+        
+    }

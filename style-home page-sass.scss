@@ -1,0 +1,185 @@
+$primary-color: #00b39b;
+$secondary-color: #777777;
+
+
+nav {
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding: 0 203px;
+    padding-top: 20px;
+
+    img{
+        width: 268px;
+        height: 33px;
+        }
+
+        ul{
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        list-style: none;
+        }
+
+        a {
+        text-decoration: none;
+        color: $secondary-color;
+
+        }
+
+        a:hover {
+        color: $primary-color;
+        }
+    }
+
+
+#active{    /* active: for setting the item always on */
+    color: $primary-color;
+        }
+
+
+.dropdown-list {
+    cursor: pointer;
+    position: relative;
+}
+
+.sec-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#slogan {
+   color: $primary-color;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+.colored-text {
+    color: $primary-color;
+}
+
+.grey-text {
+    color:$secondary-color;
+}
+
+.p0 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    margin: 40px 40px;
+    color: $secondary-color;
+}
+
+    #p0-left {
+        display: inline-block;
+        justify-content: center;
+        width: 500px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    #p0-right{
+        display: inline-block;
+        justify-content: center;
+        width: 500px;
+        height: 60px;
+        margin: 10px;
+        }
+        
+.group-1 {
+    width: 100%;    /* the class's width is the whole page */
+    height: 400px;
+    display: flex;  /*  activating 'flexbox'    */
+    justify-content: space-around;  /* giving a space between each block */
+    padding: 30px 270px;    /* creating spaces in order to center the blocks.   30px: top + bottom | 270px: left + right */
+    color: white;   /* font color */
+}
+
+    .group-1 div{   /* to target all the divs in the class */
+        width: 312px;
+        height: 345px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 30px;
+    }
+        #patients {
+        
+            background-color: $primary-color;
+        }
+
+        #doctors {
+            background-color: #3d83df;
+        }
+
+        #clinics {
+            background-color: #1b2734;
+        }
+
+.below-3cards {
+    width: 100%;
+    height: 400px;
+    padding: 30px 270px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+        
+.brands_logos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.brands_logos+h2 {
+    padding-top: 20px;
+}
+
+.below-3cards li {
+    width: 150px;
+    height: 50px;
+    
+}
+
+.below-3cards img, svg {
+    width: 144px;
+    height: 44px;
+    fill: $secondary-color;
+    
+}
+
+
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 10px;
+    padding: 0 250px;
+   
+    
+}
+
+ #gov {
+    height: 260px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#gov img {
+    height: 200px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
